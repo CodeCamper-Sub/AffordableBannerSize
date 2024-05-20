@@ -163,4 +163,60 @@ enum Puzzle: Int, CaseIterable {
       return "당신은 신비로운 동굴에 있습니다. 동굴 중앙에는 마법의 수정구가 있습니다. 수정구에는 암호가 걸려 있습니다. 암호는 '투명, 반짝임, 빛, 어둠, 그림자'입니다.\n힌트: '열쇠는 첫 번째 단어입니다.'"
     }
   }
+  
+  var answer: String {
+    switch self {
+    case .puzzle1:
+      return "나무"
+    case .puzzle2:
+      return "달"
+    case .puzzle3:
+      return "새"
+    case .puzzle4:
+      return "겨울"
+    case .puzzle5:
+      return "루비"
+    case .puzzle6:
+      return "동"
+    case .puzzle7:
+      return "나무"
+    case .puzzle8:
+      return "두루마리"
+    case .puzzle9:
+      return "사파이어"
+    case .puzzle10:
+      return "물"
+    case .puzzle11:
+      return "빛"
+    case .puzzle12:
+      return "나무"
+    case .puzzle13:
+      return "구름"
+    case .puzzle14:
+      return "바다"
+    case .puzzle15:
+      return "기사"
+    case .puzzle16:
+      return "국화"
+    case .puzzle17:
+      return "불"
+    case .puzzle18:
+      return "캠프파이어"
+    case .puzzle19:
+      return "모래"
+    case .puzzle20:
+      return "투명"
+    }
+  }
+}
+
+extension Puzzle {
+  static func randomElement(_ count: Int) -> [Puzzle] {
+    var set = Set<Puzzle>()
+    while(set.count < count) {
+      set.insert(Puzzle.allCases.randomElement()!)
+    }
+    
+    return Array(set)
+  }
 }

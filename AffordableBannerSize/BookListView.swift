@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BookListView: View {
-  @State var puzzles = Puzzle.allCases
+  @State private var puzzles = Puzzle.allCases
   @Environment(\.dismiss) private var dismiss
   
   var body: some View {

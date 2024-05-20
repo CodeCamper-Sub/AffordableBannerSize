@@ -13,6 +13,10 @@
 		4660BE832BFAF19A00F6BDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4660BE822BFAF19A00F6BDE5 /* Preview Assets.xcassets */; };
 		4660BE8A2BFAF1B800F6BDE5 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE892BFAF1B800F6BDE5 /* Puzzle.swift */; };
 		4660BE8C2BFB011900F6BDE5 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE8B2BFB011900F6BDE5 /* BookDetailView.swift */; };
+		4660BE8E2BFB050D00F6BDE5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE8D2BFB050D00F6BDE5 /* MainView.swift */; };
+		4660BE902BFB058100F6BDE5 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE8F2BFB058100F6BDE5 /* GuideView.swift */; };
+		4660BE922BFB0D8900F6BDE5 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE912BFB0D8900F6BDE5 /* QuestionView.swift */; };
+		4660BE942BFB1C5D00F6BDE5 /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4660BE932BFB1C5D00F6BDE5 /* FinishView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		4660BE822BFAF19A00F6BDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4660BE892BFAF1B800F6BDE5 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		4660BE8B2BFB011900F6BDE5 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		4660BE8D2BFB050D00F6BDE5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4660BE8F2BFB058100F6BDE5 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		4660BE912BFB0D8900F6BDE5 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		4660BE932BFB1C5D00F6BDE5 /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				4660BE7F2BFAF19A00F6BDE5 /* Assets.xcassets */,
 				4660BE812BFAF19A00F6BDE5 /* Preview Content */,
 				4660BE892BFAF1B800F6BDE5 /* Puzzle.swift */,
+				4660BE8D2BFB050D00F6BDE5 /* MainView.swift */,
+				4660BE8F2BFB058100F6BDE5 /* GuideView.swift */,
+				4660BE912BFB0D8900F6BDE5 /* QuestionView.swift */,
+				4660BE932BFB1C5D00F6BDE5 /* FinishView.swift */,
 			);
 			path = AffordableBannerSize;
 			sourceTree = "<group>";
@@ -146,7 +158,11 @@
 				4660BE8C2BFB011900F6BDE5 /* BookDetailView.swift in Sources */,
 				4660BE8A2BFAF1B800F6BDE5 /* Puzzle.swift in Sources */,
 				4660BE7E2BFAF19900F6BDE5 /* BookListView.swift in Sources */,
+				4660BE922BFB0D8900F6BDE5 /* QuestionView.swift in Sources */,
+				4660BE902BFB058100F6BDE5 /* GuideView.swift in Sources */,
+				4660BE8E2BFB050D00F6BDE5 /* MainView.swift in Sources */,
 				4660BE7C2BFAF19900F6BDE5 /* AffordableBannerSizeApp.swift in Sources */,
+				4660BE942BFB1C5D00F6BDE5 /* FinishView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -288,6 +304,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +335,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
