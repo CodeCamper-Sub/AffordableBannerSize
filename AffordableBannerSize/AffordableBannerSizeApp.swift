@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-let TOTAL_NUMBER_OF_PUZZLES = 2
+let TOTAL_NUMBER_OF_PUZZLES = 10
 let BANNER_SIZES = [100, 200, 300, 400, 500]
 
 class AppViewModel: ObservableObject {

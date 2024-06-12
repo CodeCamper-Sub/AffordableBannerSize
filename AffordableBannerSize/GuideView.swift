@@ -29,9 +29,9 @@ struct GuideView: View {
       }
       VStack(alignment: .leading) {
         Text("3.")
-          .font(.system(size: 42, weight: .bold))
+          .font(.system(size: 42  , weight: .bold))
           .foregroundStyle(Color(.blue).opacity(0.8))
-        Text("5개의 문제를 풀고 나면, 시간 기록을 저장합니다.")
+        Text("\(TOTAL_NUMBER_OF_PUZZLES)개의 문제를 풀고 나면, 시간 기록을 저장합니다.")
           .frame(maxWidth: .infinity, alignment: .leading)
           .font(.system(size: 20, weight: .medium))
       }
